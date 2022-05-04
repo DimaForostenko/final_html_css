@@ -1,0 +1,20 @@
+:root{
+--bg-color-header: #65C466;
+--bg-color-body:#E5E5E5;
+--bg-color-footer:#243246;
+--logo-text-color: #FFFFFF;
+font-size: 18px;
+}
+*{
+  box-sizing:border-box;
+}
+.head-page{
+  display: flex;
+  /* max-height: ; */
+  background-color: var(--bg-color-header);
+  color: var(--logo-text-color);
+  border-radius: 3px;
+}
+.logo{
+  font-size: 2rem;
+}
